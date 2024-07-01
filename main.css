@@ -1,0 +1,291 @@
+@import url("styles/reset.css");
+@import url("styles/menu.css");
+@import url("styles/title.css");
+@import url("styles/about.css");
+@import url("styles/skills.css");
+@import url("styles/hobbies.css");
+@import url("styles/academic.css");
+@import url("styles/experience.css");
+@import url("styles/contacto.css");
+@import url("styles/footer.css");
+
+body{
+    background-color: #f5f5f5;
+    line-height: 1;
+    font-family: "Raleway";
+    color: #464646;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px){
+
+    .title__container{
+        width: 524px;
+        height: 210px;
+        flex-wrap: wrap;
+        margin: 32px 32px 0 32px;
+        padding-bottom: 0;
+    }
+    .title__profile{
+        position: absolute;
+        right: 32px;
+        width: 146px;
+        height: 146px;
+    }
+    .title__network{
+        justify-content: space-between;
+    }
+    .about__container{
+        padding-left: 32px;
+    }
+    .academic__courses{
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin-bottom: 32px;
+    }
+    .academic__courses__box{
+        width: 224px;
+        height: 169px;
+    }
+    .academic__courses__item__img{
+        width: 100px;
+        height: 80px;
+      }
+    .experiencie__box{
+        width: 704px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1200px){
+    /* MENU*/
+    .menu__list__item__contato{
+        display: none;
+    }
+    .menu__list{
+        display: flex;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        gap: 32px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .menu__list__item2{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    /* TITLE */
+    .title{
+        flex-wrap: wrap;
+    }
+    .title__profile{
+        width: 368px;
+        height: 368px;
+    }
+    .title__bio{
+        display: flex;
+        width: 751px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .title__container{
+        display: flex;
+        width: 751px;
+        height: auto;
+        flex-wrap: wrap;
+        margin: 32px 32px 0 32px;
+        padding-bottom: 0;
+        margin: 0 50px;
+        margin-top: 50px;
+    }
+    .title__bio{
+        font-size: 52px;
+        font-weight: 700;
+    }
+    .title__subsection{
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+    .title__network{
+        width: 467px;
+        height: 24px;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 100px;
+    }
+    /* about */
+    .about__container{
+        padding:0 50px;
+    }
+    .about__title{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 2.5;
+    }
+    .about__paragraph{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .about__image{
+        margin-bottom: 32px;
+    }
+    /* skills */
+    .skills__title{
+        font-size: 32px;
+        font-weight: 700;
+        padding: 32px 0;
+
+    }
+    .skills__line{
+        width: 1136px;
+    }
+
+    .skills__box{
+        height: 150px;
+        width: 150px;
+        display: flex;
+        margin: 0;
+        align-items: flex-end;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 16px;
+        gap: 16px;
+    }
+    /* hobbies */
+    .hobbies__line{
+        width: 1136px;
+        margin-bottom: 50px;
+    }
+    .hobbies__title{
+        font-weight: 700;
+        font-size: 32px;
+        padding-top: 50px;
+        padding-bottom: 32px;
+    }
+    .hobbies__box{
+        height: 150px;
+        width: 150px;
+        display: flex;
+        margin: 0;
+        align-items: flex-end;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 16px;
+        gap:16px;
+    }
+    /* academic */
+    .academic__title{
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .academic__title{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .academic__courses__box{
+        width: 368px;
+        height: 286px;
+        margin: 0;
+    }
+    .academic__courses{
+        padding: 0 50px;
+        justify-content: center;
+        padding-bottom: 50px;
+        gap: 16px;
+    }
+    .academic__courses__item__img{
+        width: 120px;
+        height: 120px;
+    }
+    .academic__courses__item__title{
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .academic__courses__item__subtitle{
+        font-size: 16px;
+    }
+    /* experience */
+    .experience__section__title{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .experiencie__box{
+        display: flex;
+        flex-flow: row wrap;
+        width: 1136px;
+        height: 406px;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        gap: 16px;
+    }
+    .experience__img{
+        width: 752px;
+        height: 406px;
+    }
+    .experience__info{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 406px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .experience__title{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .experience__text{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .experience__repo{
+        width: 116px;
+        height: 51px;
+        border: 1px;
+        padding: 16px;
+        gap: 10px;
+    }
+    /* contacto */
+    .formcontato--esquerda{
+        width: 464px;
+        height: 593px;
+    
+    }
+    .formcontato__img{
+        display: flex;
+        width: 464px;
+        height: 593px;
+    
+    }
+    .formcontato{
+        padding-top: 100px;
+        position: relative;
+        left: 32px;
+    }
+    .formcontato__contacto{
+        display: flex;
+    }
+    .formcontato__text{
+        line-height: 18.78px;
+        width: 656px;
+        width: 596px;
+    }
+    .formcontato__title{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .formcontato__subtext{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}

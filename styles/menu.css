@@ -1,0 +1,27 @@
+
+
+.menu__header{
+    display: flex;
+    margin: 16px 16px;
+    gap: 5px;
+    width: 360px;
+}
+
+.menu__title{
+    font-weight: 700;
+}
+
+.menu__title__image{
+    width: 24px;
+}
+
+.menu__list{
+    display:none;
+}
+
+.menu__list__item__contato{
+    position: absolute;
+    right: 0%;
+    top: 32px;
+    margin-right: 16px;
+}

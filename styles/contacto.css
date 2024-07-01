@@ -1,0 +1,35 @@
+
+.formcontato__text{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 32px;
+}
+
+.formcontato__title{
+    text-align: left;
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__input{
+    margin: 16px;
+}
+
+.formcontato__img{
+    display: none;
+}
+
+.formcontato__botao{
+    width: 133px;
+    height: 40px;
+    background-color:aqua;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+.about__container{
+    padding-left: 16px;
+    background-color: rgb(68, 206, 237);
+}
+
+.about__title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 2.5;
+}
+
+.about__paragraph{
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 400;
+    width: auto;
+}
+
+.about__image{
+    width: 140px;
+    height: 52px;
+    margin-bottom: 16px;
+}
